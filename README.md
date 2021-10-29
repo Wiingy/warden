@@ -3,6 +3,7 @@
 [![GitHub release](https://img.shields.io/github/release/pxsocs/warden.svg)](https://GitHub.com/pxsocs/warden/releases/)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://GitHub.com/pxsocs/warden/releases/)
 [![Powered by NGU](https://img.shields.io/badge/Powered%20by-NGU%20Technology-orange.svg)](https://bitcoin.org)
+[![build-and-publish](https://github.com/Wiingy/warden/actions/workflows/build-and-publish.yml/badge.svg)](https://github.com/Wiingy/warden/actions/workflows/build-and-publish.yml)
 
 ### Requirements:
 
