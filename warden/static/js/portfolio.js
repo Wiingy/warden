@@ -498,6 +498,8 @@ function realtime_table() {
             $('#pvaluesats').html(formatNumber(data.positions.Total.position_btc * 100000000, 0, '丰 ')).fadeTo(100, 0.3, function () { $(this).fadeTo(500, 1.0); });
 
             $('#end_portvalue').html(formatNumber(data.positions.Total.position_fx, 0)).fadeTo(100, 0.3, function () { $(this).fadeTo(500, 1.0); });
+            posUSD = data.positions.Total.position_fx / fx_rate
+            $('#end_portvalueUSD').html(formatNumber(posUSD, 0)).fadeTo(100, 0.3, function () { $(this).fadeTo(500, 1.0); });
 
             posbtc = data.positions.Total.position_fx / data.btc
             $('#chg1').html(formatNumber(data.positions.Total.change_fx, 0, fx)).fadeTo(100, 0.3, function () { $(this).fadeTo(500, 1.0); });;
