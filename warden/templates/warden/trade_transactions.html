@@ -56,7 +56,7 @@
             {{transaction.trade_date.strftime('%Y-%m-%d')}}</td>
           <td class="align-middle text-center" scope="row">{{transaction.trade_asset_ticker}}</td>
           <td class="align-middle text-center small" scope="row">{{transaction.trade_operation}}</td>
-          <td class="align-middle text-right" scope="row">{{"{:,.2f}".format(transaction.trade_quantity)}}
+          <td class="align-middle text-right" scope="row">{{"{:,.6f}".format(transaction.trade_quantity)}}
           </td>
           <td class="align-middle text-right" scope="row">
             {{transaction.trade_currency | fxsymbol}}
