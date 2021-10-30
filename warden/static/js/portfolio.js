@@ -349,6 +349,8 @@ $(document).ready(function () {
             min_nav_txt = min_nav_txt + data.min_port_date + "</span>"
             $('#min_nav').html(min_nav_txt);
 
+            $('#end_portvalue_usd').html(data.end_portvalue_usd.toLocaleString('en-US', { style: 'decimal', maximumFractionDigits: 2, minimumFractionDigits: 2 }));
+            
             var max_pv_txt = data.max_portvalue.toLocaleString('en-US', { style: 'decimal', maximumFractionDigits: 0, minimumFractionDigits: 0 }) + "<span class='small'> on "
             max_pv_txt = max_pv_txt + data.max_port_date + "</span>"
             $('#max_portvalue').html(max_pv_txt);
